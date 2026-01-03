@@ -40,10 +40,12 @@ class Stack {
 
 const stack = new Stack();
 
-stack.push(1);
-stack.push(2);
-stack.push(3);
-stack.pop();
-stack.push(4);
-console.log(stack.peek()); // 4
-stack.print(); // 1, 2, 4
+// stack.push(1);
+// stack.push(2);
+// stack.push(3);
+// stack.pop();
+// stack.push(4);
+// console.log(stack.peek()); // 4
+// stack.print(); // 1, 2, 4
+
+module.exports = stack;
