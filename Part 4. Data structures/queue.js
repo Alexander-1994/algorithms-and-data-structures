@@ -42,10 +42,12 @@ class Queue {
 
 const queue = new Queue();
 
-queue.offer("A");
-queue.offer("B");
-queue.offer("C");
-console.log(queue.poll()); // A
-queue.offer("D");
-console.log(queue.peek()); // B
-queue.print(); // B, C, D
+// queue.offer("A");
+// queue.offer("B");
+// queue.offer("C");
+// console.log(queue.poll()); // A
+// queue.offer("D");
+// console.log(queue.peek()); // B
+// queue.print(); // B, C, D
+
+module.exports = queue;
